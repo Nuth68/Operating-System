@@ -1,0 +1,135 @@
+    1  tree
+    2  cd lab3
+    3  cd CopyingFolder
+    4  cp *.txt Desktop
+    5  cp *.txt ../Desktop
+    6  cd
+    7  tree
+    8  cd lab3
+    9  cd Desktop
+   10  cd FrenchFolder
+   11  rm -r *.txt
+   12  cd ..
+   13  rm -r FrenchFolder
+   14  ls
+   15  cd
+   16  tree
+   17  cd lab3
+   18  cd Desktop
+   19  mkdir FrenchFolder
+   20  cd ..
+   21  cd MoveFoder
+   22  cd MoveFolder
+   23  cp *.txt ./FrenchFolder
+   24  cp *.txt  ../FrenchFolder
+   25  cp *.txt ../../FrenchFolder
+   26  cd
+   27  tree
+   28  cp *.txt ././FrenchFolder
+   29  cp *.txt ../Desktop/FrenchFolder
+   30  mv lab3/MoveFolder/* lab3/Desktop/FrenchFolder/
+   31  tree
+   32  rm -r lab3/Desktop/FrenchFolder/document_deux.txt
+   33  tree
+   34  cd Document
+   35  cd Documents
+   36  cd lab3/Documents
+   37  mkdir EmptyFolder
+   38  touch deletefile.txt
+   39  mkdir DeleteFolder
+   40  rm -r DeleteFolder
+   41  cd EmptyFolder
+   42  mkdir DeleteFolder
+   43  touch deletefile.txt
+   44  cd ..
+   45  rm -r deletefile.txt
+   46  cd
+   47  tree
+   48  cd lab3/Documents/EmptyFolder
+   49  rm -r DeleteFolder
+   50  rm -r deletefile.txt
+   51  cd ..
+   52  rm -r EmptyFolder
+   53  cd
+   54  cd lab3/Desktop/FrenchFolder
+   55  rm -r *.txt
+   56  ls
+   57  cd
+   58  tree
+   59  history > ~/lab3/wildcardex1_commmend_history.txt
+   60  tree
+   61  cd lab3
+   62  mkdir wildcard_lab
+   63  cd wildcard_lab
+   64  touch {a,b,ab,abc}.txt
+   65  touch xyz.log
+   66  touch data.csv
+   67  ls
+   68  ls *.txt
+   69  ls *.log
+   70  ls ?.txt
+   71  cd ..
+   72  mkdir backup
+   73  cd
+   74  tree
+   75  cd lab3
+   76  cd wildcard_lab
+   77  cp *.txt /backup
+   78  cp *.txt ../backup
+   79  cd
+   80  tree
+   81  cd lab3
+   82  cp *.txt ../backup
+   83  cp *.txt /backup
+   84  cp *.txt backup
+   85  tree
+   86  cd
+   87  cp *.txt ~/lab3/backup/
+   88  cd lab3
+   89  cp *.txt ~/lab3/backup/
+   90  tree
+   91  cd
+   92  cp *.txt ~/lab3/backup/
+   93  cd Documents
+   94  cd lab3/Documents
+   95  cp *.txt backup
+   96  cp *.txt ../backup
+   97  cd
+   98  cd lab3/wildcard_lab
+   99  cp data.csv xyz.log backup
+  100  cp data.csv xyz.log ../backup
+  101  cd
+  102  tree
+  103  nuth@DESKTOP-44AOET7:~$ cp *.txt ~/lab3/backup/
+  104  cp: cannot stat '*.txt': No such file or directory
+  105  cd lab3/wildcard_lab
+  106  cp ???*txt ../backup
+  107  cd
+  108  tree
+  109  rm -r ?*.
+  110  cd lab3/wildcard/
+  111  cd lab3/wildcard_lab
+  112  rm -r ?*.
+  113  rm -r ?.*
+  114  cd ..
+  115  cd backup
+  116  rm -r .*
+  117  rm -r *.
+  118  rm *
+  119  ls
+  120  cd
+  121  touch file{1..3}.txt
+  122  ls
+  123  rm -r*.txt
+  124  rm -r file1.txt
+  125  rm -r file2.txt
+  126  rm -r file3.txt
+  127  ls
+  128  cd lab3
+  129  cd wildcard_lab
+  130  touch file{1..5}.txt
+  131  ls
+  132  touch file[1-3].txt
+  133  ls
+  134  cd
+  135  history > lab3/wildcardex3_commend_history.txt

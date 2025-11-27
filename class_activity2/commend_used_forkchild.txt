@@ -1,0 +1,15 @@
+   47  history | tail -n 50 >syscall_commend_history.txt
+   48  ls
+   49  cat syscall_commend_history.txt
+   50  ssh gic-prave-vinuth@192.168.21.87
+   51  tree
+   52  mkdir class_activity2
+   53  cd class_activity2
+   54  nano forkchild.c
+   55  gcc -o forkchild forkchild.c
+   56  nano forkchild.c
+   57  gcc -o forkchild forkchild.c
+   58  ls
+   59  cd forkchild
+   60  ./forkchild > result_forkchild.txt
+   61  history | tail -n 15 > commend_used_forkchild.txt

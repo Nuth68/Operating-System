@@ -1,0 +1,59 @@
+    1  tree
+    2  cd lab3
+    3  cd CopyingFolder
+    4  cp *.txt Desktop
+    5  cp *.txt ../Desktop
+    6  cd
+    7  tree
+    8  cd lab3
+    9  cd Desktop
+   10  cd FrenchFolder
+   11  rm -r *.txt
+   12  cd ..
+   13  rm -r FrenchFolder
+   14  ls
+   15  cd
+   16  tree
+   17  cd lab3
+   18  cd Desktop
+   19  mkdir FrenchFolder
+   20  cd ..
+   21  cd MoveFoder
+   22  cd MoveFolder
+   23  cp *.txt ./FrenchFolder
+   24  cp *.txt  ../FrenchFolder
+   25  cp *.txt ../../FrenchFolder
+   26  cd
+   27  tree
+   28  cp *.txt ././FrenchFolder
+   29  cp *.txt ../Desktop/FrenchFolder
+   30  mv lab3/MoveFolder/* lab3/Desktop/FrenchFolder/
+   31  tree
+   32  rm -r lab3/Desktop/FrenchFolder/document_deux.txt
+   33  tree
+   34  cd Document
+   35  cd Documents
+   36  cd lab3/Documents
+   37  mkdir EmptyFolder
+   38  touch deletefile.txt
+   39  mkdir DeleteFolder
+   40  rm -r DeleteFolder
+   41  cd EmptyFolder
+   42  mkdir DeleteFolder
+   43  touch deletefile.txt
+   44  cd ..
+   45  rm -r deletefile.txt
+   46  cd
+   47  tree
+   48  cd lab3/Documents/EmptyFolder
+   49  rm -r DeleteFolder
+   50  rm -r deletefile.txt
+   51  cd ..
+   52  rm -r EmptyFolder
+   53  cd
+   54  cd lab3/Desktop/FrenchFolder
+   55  rm -r *.txt
+   56  ls
+   57  cd
+   58  tree
+   59  history > ~/lab3/wildcardex1_commmend_history.txt

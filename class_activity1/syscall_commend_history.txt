@@ -1,0 +1,47 @@
+    1  tree
+    2  cat wildcadex1_commend_history.txt
+    3  cd lab3
+    4  cat wildcadex1_commend_history.txt
+    5  cat wildcardex1_commend_history.txt
+    6  tree
+    7  mkdir class_activity1
+    8  cd class_activity1
+    9  nano syscall.c
+   10  gcc -o syscall.c
+   11  sudo apt install gcc
+   12  gcc -o syscall.c
+   13  nano syscall.c
+   14  gcc syscall.c -o syscall
+   15  nano syscall.c
+   16  gcc syscall.c -o syscall
+   17  ls
+   18  ./syscall
+   19  nano syscall2.cpp
+   20  gcc syscall2.cpp -o syscall2
+   21  g++ syscall2.cpp -o syscall2
+   22  sudo apt install g++
+   23  gcc syscall2.cpp -o syscall2
+   24  nano syscall2.cpp
+   25  ls
+   26  rm -r syscall2.cpp
+   27  ls
+   28  touch result.txt copyresult.txt
+   29  ls
+   30  nano result.txt
+   31  nano copyfilesyscall.c
+   32  gcc copyfilesyscall.c -o copyfilesyscall
+   33  nano copyfilesyscall.c
+   34  gcc copyfilesyscall.c -o copyfilesyscall
+   35  ./copyfilesyscall
+   36  ./copyfilesyscall.c
+   37  ls
+   38  ./copyfilesyscall
+   39  cat cpyresult.txt
+   40  cat copyresult.txt
+   41  tree
+   42  cd ~
+   43  tree
+   44  cd class_activity1
+   45  history | tail-n 50 >class_activity1/syscall_commend_history.txt
+   46  history | tail-n 50 >syscall_commend_history.txt
+   47  history | tail -n 50 >syscall_commend_history.txt

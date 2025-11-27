@@ -1,0 +1,46 @@
+  319  To have this happen automatically for branches without a tracking
+  320  upstream, see 'push.autoSetupRemote' in 'git help config'.
+  321  gic-prave-vinuth@i4gic-os:~$ git push -u origin main
+  322  error: src refspec main does not match any
+  323  error: failed to push some refs to 'https://github.com/Nuth68/OS.git'
+  324  gic-prave-vinuth@i4gic-os:~$git add .
+  325  git init
+  326  git add.
+  327  git add .
+  328  git commit -m "New Update"
+  329  git push -u origin main
+  332  git push -u origin main
+  334  gic-prave-vinuth@i4gic-os:~$ ^
+  336  wd | group panha
+  337  wd | groups panha
+  338  git push origin
+  339  git push origin main
+  340  mkdir Lab4
+  341  tree
+  342  ls -l~ > ~/Lab4/contents.txt
+  343  ls -l ~ > ~/Lab4/contents.txt
+  344  cd Lab4
+  345  ls
+  346  cd ..
+  347  sort contents.txt >> contents-sort.txt
+  348  cd Lab4
+  349  sort contents.txt >> contents-sort.txt
+  350  ls
+  351  cd
+  352  tail /etc/passwd > ~/Lab4/filed2.txt
+  353  wc -w < contents.txt >> ~/Lab4/filed2.txt
+  354  cd Lab4
+  355  wc -w < contents.txt >> ~/Lab4/filed2.txt
+  356  cd
+  357  head -n 5 /etc/passwd | sort -r
+  358  tail -n 9 contents.txt | wc - n
+  359  tail -n 9 contents.txt | wc - m
+  360  cd Lab4
+  361  tail -n 9 contents.txt | wc - m
+  362  find /user/share -name test
+  363  cd
+  364  find /user/share -name test
+  365  find /usr/share -name test
+  366  cd Lab4
+  367  find /usr/share -name test
+  368  history | tail -n 50 > commands_history.txt

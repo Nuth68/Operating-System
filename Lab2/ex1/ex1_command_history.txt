@@ -1,0 +1,140 @@
+    1  ls
+    2  pwd
+    3  man pwd
+    4  mdir Lab1
+    5  mkdir Lab1
+    6  pwd
+    7  ls
+    8  cd Lab1
+    9  mkdir LabFile
+   10  cd LabFile
+   11  touch doc1.txt doc2.txt
+   12  ls
+   13  whoami
+   14  pwd
+   15  history
+   16  echo $HISTSIZE 
+   17  echo $PATH
+   18  tree
+   19  cd ..
+   20  cd .
+   21  cd ..
+   22  tree
+   23  pwd
+   24  mkdir Lab2
+   25  tree
+   26  cd Lab2
+   27  mkdir ex1
+   28  cd ex1
+   29  mkdir network
+   30  cd network
+   31  touch interfaces
+   32  ls
+   33  mkdir systemd
+   34  ls
+   35  rmdir
+   36  rmdir -r
+   37  man rmdir
+   38  cd systemd
+   39  rmdir
+   40  man rmdir
+   41  rmdir -p
+   42  cd ..
+   43  tree
+   44  cd Lab1
+   45  cd ..
+   46  cd Lab2
+   47  cd ex1
+   48  mkdir etc
+   49  cd etc
+   50  ls
+   51  cd ..
+   52  ls
+   53  rm -r network
+   54  ls
+   55  cd etc
+   56  mkdir network
+   57  cd network
+   58  touch interfaces
+   59  ls
+   60  cd ..
+   61  mkdir systemd
+   62  cd systemd
+   63  mkdir systemd
+   64  ls
+   65  touch systemd.conf
+   66  mkdir user
+   67  touch user.conf
+   68  ls
+   69  cd ..
+   70  mkdir udev
+   71  cd udev
+   72  mkdir rules.d
+   73  touch udev.conf
+   74  cd ..
+   75  touch ex1_command_history.txt
+   76  ls
+   77  mkdir home
+   78  cd home
+   79  mkdir lost+found
+   80  mkdir user
+   81  cd user
+   82  mkdir Documents
+   83  cd ..
+   84  cd
+   85  cd Lab2
+   86  cd ex2
+   87  mkdir ex2
+   88  cd ex2
+   89  touch ex_commend_history.txt
+   90  cd
+   91  tree
+   92  history >Lab2/ex1/ex1_commend_history.txt
+   93  cd Lab2/ex1/etc/network/systemd
+   94  cd Lab2
+   95  cd ex1
+   96  cd etc
+   97  cd network
+   98  cd systemd
+   99  cd ..
+  100  cd systemd
+  101  mv systemd.conf system.conf
+  102  ls
+  103  mv systemd system
+  104  ls
+  105  cd w..
+  106  cd ..
+  107  mv systemd system
+  108  ls
+  109  cd ..
+  110  touch result1.txt
+  111  cd
+  112  tree
+  113  cd home
+  114  pwd
+  115  cd home
+  116  cd Lab2
+  117  cd ex1
+  118  rm -r ex1_command_history.txt
+  119  rm -r ex1_commend_history.txt
+  120  mkdir ex1_command_history.txt
+  121  cd ..
+  122  rm -r ex_commend_history.txt
+  123  cd ex2
+  124  rm -r ex_commend_history.txt
+  125  mkdir ex_command_history.txt
+  126  cd
+  127  tree
+  128  history> Lab2/ex1/ex1_command_history.txt
+  129  history > Lab2/ex1/ex1_command_history.txt
+  130  cd Lab2
+  131  cd ex1
+  132  rm -r ex_commend_history.txt
+  133  rm -r ex_command_history.txt
+  134  ls
+  135  rm -r ex1_command-history.txt
+  136  rm -r ex1_command_history.txt
+  137  touch ex1_command_history.txt
+  138  cd
+  139  tree
+  140  history > Lab2/ex1/ex1_command_history.txt

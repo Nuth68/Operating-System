@@ -1,0 +1,9 @@
+drwxrwxr-x  2 gic-prave-vinuth gic-prave-vinuth 4096 Nov 27 15:13 Lab4
+drwxrwxr-x  3 gic-prave-vinuth gic-prave-vinuth 4096 Oct 23 15:32 Lab1
+drwxrwxr-x  3 gic-prave-vinuth gic-prave-vinuth 4096 Oct 30 15:51 Desktop
+drwxrwxr-x  3 gic-prave-vinuth gic-prave-vinuth 4096 Oct 30 15:52 Document
+drwxrwxr-x  4 gic-prave-vinuth gic-prave-vinuth 4096 Oct 23 16:03 Lab2
+drwxr-xr-x 10 gic-prave-vinuth gic-prave-vinuth 4096 Nov 20 15:26 Lab3
+drwxr-xr-x  2 gic-prave-vinuth gic-prave-vinuth 4096 Nov 20 15:26 class_activity1
+drwxr-xr-x  2 gic-prave-vinuth gic-prave-vinuth 4096 Nov 20 15:27 class_activity2
+total 32
