@@ -1,0 +1,30 @@
+  311  rm -r task1_failed_logins.txt 
+  312  ls
+  313  cat suspicious_activity.txt 
+  314  cd 
+  315  cd Operating-System/
+  316  cd Lab
+  317  cd Lab4
+  318  cd Challenge1/
+  319  lws
+  320  ls
+  321  cd commend_used/
+  322  ls
+  323  touch task3_commend.txt
+  324  history | tail -n 20 > task3_commend.txt
+  325  ls
+  326  cat task3_commend.txt 
+  327  cd ..
+  328  {   echo "=== Attack Pattern Analysis Summary ===";   echo -e "\nTop 5 Most Active IPs (by request count):";   awk '{print $1}' original_log/access.log | sort | uniq -c | sort -nr | head -n 5;      echo -e "\nMost Targeted URLs (top 10):";   awk '{print $7}' original_log/access.log | sort | uniq -c | sort -nr | head -n 10;      echo -e "\nRequest Frequency by Hour (based on server time in logs):";   awk '{print substr($4,14,2)}' original_log/access.log | sort | uniq -c | sort -k1 -nr;      echo -e "\nRepeated Requests to Login Pages (/login) - Count per IP:";   grep "/login" original_log/access.log | awk '{print $1}' | sort | uniq -c | sort -nr;      echo -e "\nNotes on Suspicious Patterns:";   echo "- Look for IPs with very high counts in short time windows (>10 requests/minute possible indicator)";   echo "- Check if spikes occur during off-hours (e.g., late night/early morning hours like 00-05)";   echo "- Repeated /login attempts from same IP may indicate brute-force or credential testing";   echo "- Combine with failed_logins.txt to see if high-volume IPs also have 401/403 responses"; } > analysis/attack_patterns.txt
+  329  ls
+  330  cd analysis/
+  331  ls
+  332  cat attack_patterns.txt 
+  333  mv suspicious_activity.txt task3_suspicious_agents.txt
+  334  mv attack_patterns.txt  task4_top_ips.txt
+  335  ls
+  336  cd ..
+  337  cd commend_used/
+  338  ls
+  339  touch task4_commend.txt
+  340  history | tail -n 30 >task4_commend.txt 

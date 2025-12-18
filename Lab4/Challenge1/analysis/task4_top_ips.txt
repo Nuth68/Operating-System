@@ -1,0 +1,31 @@
+=== Attack Pattern Analysis Summary ===
+
+Top 5 Most Active IPs (by request count):
+     26 192.168.1.105
+      8 45.33.2.79
+      8 203.0.113.42
+      8 198.51.100.22
+
+Most Targeted URLs (top 10):
+      8 /login
+      8 /
+      1 /wp-login.php
+      1 /wp-includes/
+      1 /wp-content/uploads/
+      1 /wp-config.php
+      1 /wp-admin
+      1 /style.css
+      1 /sitemap.xml
+      1 /script.js
+
+Request Frequency by Hour (based on server time in logs):
+     50 08
+
+Repeated Requests to Login Pages (/login) - Count per IP:
+      8 203.0.113.42
+
+Notes on Suspicious Patterns:
+- Look for IPs with very high counts in short time windows (>10 requests/minute possible indicator)
+- Check if spikes occur during off-hours (e.g., late night/early morning hours like 00-05)
+- Repeated /login attempts from same IP may indicate brute-force or credential testing
+- Combine with failed_logins.txt to see if high-volume IPs also have 401/403 responses

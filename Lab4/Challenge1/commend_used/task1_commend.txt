@@ -1,0 +1,20 @@
+  260  cd analysis/
+  261  ls
+  262  cat task1_basic_stats.txt 
+  263  cd ..
+  264  mkdir commend_used
+  265  cd analysis/
+  266  history | tail -n 10 > commend_used/task1_commend.txt
+  267  cd ..
+  268  cd commend_used/
+  269  touch task1_commend.txt
+  270  cd
+  271  cd Operating-System/
+  272  cd Lab
+  273  cd Lab4
+  274  cd Challenge1/
+  275  history | tail -n 10 > commend_used/task1_commend.txt
+  276  cd commend_used/
+  277  cat task1_commend.txt 
+  278  cd ..
+  279  history | tail -n 20 > commend_used/task1_commend.txt
