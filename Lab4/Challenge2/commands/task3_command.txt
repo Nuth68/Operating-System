@@ -1,0 +1,10 @@
+  506  cat task2_command.txt 
+  507  history | tail -n 10 > task2_command.txt
+  508  cat task2_command.txt 
+  509  cd ..
+  510  cut -d ":" -f 4 data/employee.txt | grep "^j" > results/task3_j_emails.txt
+  511  cd results/
+  512  cat task3_j_emails.txt 
+  513  cd ..
+  514  cd commands/
+  515  history | tail -n 10 > task3_command.txt

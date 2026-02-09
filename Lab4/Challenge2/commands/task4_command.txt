@@ -1,0 +1,10 @@
+  514  cd commands/
+  515  history | tail -n 10 > task3_command.txt
+  516  cat task3_command.txt 
+  517  cd ..
+  518  grep ":HR:" data/employee.txt | cut -d ":" -f 2 > results/task4_HR_names.txt
+  519  cd results/
+  520  cat task4_HR_names.txt 
+  521  cd ..
+  522  cd commands/
+  523  history | tail -n 10 > task4_command.txt

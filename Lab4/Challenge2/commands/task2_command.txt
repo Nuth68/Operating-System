@@ -1,0 +1,10 @@
+  498  cut -d ":" -f 4 data/employee.txt > results/task2_all_emails.txt
+  499  cd results/
+  500  ls
+  501  cat task2_all_emails.txt 
+  502  cd ..
+  503  cd commands/
+  504  history | tail -n 5 > task2_command.txt
+  505  ls
+  506  cat task2_command.txt 
+  507  history | tail -n 10 > task2_command.txt

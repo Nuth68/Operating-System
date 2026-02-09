@@ -1,0 +1,3 @@
+#!/bin/bash
+y="Nuth"
+echo "y = $y"ø

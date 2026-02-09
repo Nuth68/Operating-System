@@ -1,0 +1,5 @@
+  492  mkdir commands
+  493  cd commands
+  494  history tail n-5 >task1_commands.txt
+  495  history |tail n-5 >task1_commands.txt
+  496  history |tail -n 5 >task1_commands.txt
